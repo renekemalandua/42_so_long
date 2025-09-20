@@ -22,12 +22,12 @@ Built with **C, MinilibX, and Libft**.
 
 ## 🕹️ Controls
 
-* **Arrow keys** or **W/A/S/D** to move:
+* **W/A/S/D** to move:
 
-  * `↑` / `W` → Move up
-  * `↓` / `S` → Move down
-  * `←` / `A` → Move left
-  * `→` / `D` → Move right
+  * `W` → Move up
+  * `S` → Move down
+  * `A` → Move left
+  * `D` → Move right
 * **ESC** → Quit the game.
 
 Each move increments the **move counter** shown in the terminal.
@@ -42,7 +42,8 @@ Clone the repository and compile:
 make
 ```
 
-Run the game with a `.ber` map file:
+You can change the map on Makefile
+Run the game:
 
 ```bash
 make run
